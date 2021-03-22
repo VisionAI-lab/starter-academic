@@ -11,7 +11,7 @@ role: Assistant Professor
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Korea University
-  url: https://www.korea.ac.kr/
+  url: https://cs.korea.ac.kr/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include computer vision, artificial intelligence, and their application to self-driving vehicles.
@@ -22,14 +22,15 @@ interests:
 - Computational Vision
 - Explainable and Advisable AI
 - Self-driving Vehicles
+- Data Mining, Bioinformatics, Econophysics
 
 # Education to show in About widget
 education:
   courses:
   - course: PhD in CS
-    institution: UC Berkeley
+    institution: Univ. of California, Berkeley
     year: 2019
-  - course: MS in EE
+  - course: MS in ECE
     institution: Korea University
     year: 2010
   - course: BS in EE
@@ -60,17 +61,17 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: media/resume.pdf
+#- icon: cv
+#  icon_pack: ai
+#  link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "jinkyukim@korea.ac.kr"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
 Jinkyu Kim is a professor at Korea University Computer Science. His research interests include Deep learning for Self-driving vehicles, eXplainable AI (XAI), and Advisable AI.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
